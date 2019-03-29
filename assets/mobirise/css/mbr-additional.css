@@ -1382,6 +1382,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #149dcc;
+  color: #ffffff;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #149dcc;
+}
 .cid-rkqhXKMQ2m {
   background-image: url("../../../assets/images/shutterstock-1260595699-2000x833.jpg");
 }
@@ -1490,6 +1501,11 @@ body {
 }
 .cid-rlgIFsCAdK B {
   color: #149dcc;
+}
+.cid-rm72kWRGKZ {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-rlgIuFgc9B {
   padding-top: 30px;
