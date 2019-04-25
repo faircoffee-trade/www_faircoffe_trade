@@ -1,14 +1,14 @@
-:2056 {
+:80 {
     bind 0.0.0.0
     gzip
-    root /opt/www_faircoffe_trade/
+    root /opt/websites/
     log stdout
     git {
         repo https://github.com/faircoffee-trade/www_faircoffe_trade.git
         branch master
         hook /webhook "test9278"
         hook_type generic
-        key /opt/www_faircoffe_trade/id_rsa
-        path /opt/www_faircoffe_trade/
+        key /opt/websites/id_rsa
+        path /opt/websites/
     }
 }
