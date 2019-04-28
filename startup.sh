@@ -4,7 +4,7 @@ echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDJUPEMsLqCtd8MKFL3prp2u84hB4DpLJKc3y
 /etc/init.d/ssh restart
 cd /opt/www*
 eval "$(ssh-agent -s)"
-chmod 600 id_rsa
-ssh-add id_rsa
+chmod 600 /opt/keys/id_rsa
+ssh-add /opt/keys/id_rsa
 git stash
 caddy --conf Caddyfile
