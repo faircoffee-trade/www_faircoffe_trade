@@ -10,5 +10,5 @@
         hook_type generic
         key /opt/www_faircoffe_trade/id_rsa
         path /opt/www_faircoffe_trade/
-        then startup.sh
+        then /opt/www_faircoffe_trade/startup.sh
     }
