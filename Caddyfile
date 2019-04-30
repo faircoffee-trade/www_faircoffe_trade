@@ -1,4 +1,4 @@
-:2050 {
+:80 {
     bind 0.0.0.0
     gzip
     root /opt/www_faircoffe_trade/
@@ -8,7 +8,7 @@
         branch production
         hook /webhook "test9278"
         hook_type generic
-        key /opt/www_faircoffe_trade/id_rsa
+        key /root/.ssh/id_rsa
         path /opt/www_faircoffe_trade/
     }
 }
