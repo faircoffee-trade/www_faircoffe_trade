@@ -8,7 +8,7 @@ class Package(j.baseclasses.threebot_package):
     """
     def _init(self, **kwargs):
         self.branch = kwargs["package"].branch or "master"
-        self.cultivo_earth = "https://github.com/faircoffee-trade/www_faircoffe_trade.git"
+        self.faircoffe_trade = "https://github.com/faircoffee-trade/www_faircoffe_trade.git"
 
     def prepare(self):
         """
